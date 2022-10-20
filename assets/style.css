@@ -10,29 +10,23 @@
   display: flex;
   justify-content: space-between;
   align-items: center; 
-  padding: 30px 4%;
+  padding: 45px 8%;
   color: white;
  
 }
 
  
 img {
-  width: 50px;
+  width: 80px;
   border-radius: 50px;
 
 }
 img:hover {
-    Transition:.1s;
-    opacity: .1;
-    
+    Transition:2s;
+    opacity: .5; 
+    cursor: pointer;
 }
 
-img:hover {
- Transition: 3s;
- color: rgb(75, 169, 228);
-
- 
-}
 
 .navlinks {
   list-style: none;
@@ -45,32 +39,36 @@ img:hover {
 }
 
 .navlinks li a{
-  transition: .4s;
-  color:white;
+  Transition: .4s ease-in;
+  color:rgba(128, 128, 128, 0.705);
   text-decoration: none;
-  padding: 0 10px;
+  padding: 0 15px;
+  font-size: 25px;
 
 }
 
 .navlinks li a:hover{
-  color: rgb(75, 169, 228);
+  color: #D0F9E5;
   cursor:pointer;
 }
 
 button {
-  border-radius: 30px; 
-  padding: .7%;
+  border-radius: 15px; 
+  width: 150px;
+  padding: .9%;
+  transition: .8s;
   color: black;
   border-color: white;
-  background-color:rgb(75, 169, 228);
+  background-color: #d0d2f9;
   font-weight: bolder;
+  box-shadow: 8px 5px; 
   
 }
 button:hover {
-  color:white;
+  color: rgb(61, 155, 217);
   border-color: black;
-  transition: .5s;
   cursor:pointer;
+  box-shadow: none;
 }
 
 main {
@@ -97,16 +95,18 @@ main {
   }
 .about-me h1 {
   display: flex;
-  padding-right: 10px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 50px;
+  justify-content: flex-end;
+  width: 10%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  padding-right:.5%;
   text-align: right;
   border-right: 3px solid;
   border-color: rgb(0, 0, 0);
-  font-size: 25px;
+  font-size: 35px;
   background-color: white;
   color: grey;
+  
   
 }
 .about-me p {
@@ -136,6 +136,13 @@ padding-left: 10px;
 .work p {
   color: grey;
   width:
+}
+
+span {
+  color: white;
+  background-color: white;
+  width: 100%;
+
 }
 
 
