@@ -3,21 +3,21 @@
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgba(42, 42, 42, 0.918);
+  background-color: white;
 }
 
 .header-1  {
   display: flex;
   justify-content: space-between;
   align-items: center; 
-  padding: 45px 8%;
+  padding: 6% 10%;
   color: white;
+ 
  
 }
 
- 
 img {
-  width: 80px;
+  width: 120px;
   border-radius: 50px;
 
 }
@@ -28,151 +28,176 @@ img:hover {
 }
 
 
-.navlinks {
+#navbar {
   list-style: none;
  
-}
 
-.navlinks li {
-  display: inline-block; 
  
 }
 
-.navlinks li a{
-  Transition: .4s ease-in;
-  color:rgba(128, 128, 128, 0.705);
+#navbar li {
+  display: inline-block; 
+  
+ 
+}
+
+#navbar li a{
+  Transition: .2s ease-in;
+  color:black;
   text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+  font-family: system-ui;
   padding: 0 15px;
   font-size: 25px;
 
+
 }
 
-.navlinks li a:hover{
-  color: #D0F9E5;
+#navbar li a:hover{
+  color: grey;
   cursor:pointer;
 }
 
+  
+span {
+  font-size:xx-large;
+}
+
+.intro {
+  display: flex;
+  font-size: 23px;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  color:rgba(27, 27, 20, 0.725);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.hello {
+  color:rgb(158, 204, 237);
+  font-size: 80px;
+ 
+}
+
+
+
+#header12 {
+    width:20%;
+    background-color:rgb(255, 253, 253);
+    border-radius:0px;
+    opacity:80%;
+    display: block;
+  
+  }
+  /* Provides styling to the header below the nav bar */ 
+.header11 {
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  border-radius:0px;
+  opacity:100%;
+  display: block;
+  font-size: xx-large;
+  font-weight: bold;
+  display:
+  
+}
+
+
+
+section {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: white;
+    padding-left: 30px;
+    padding-top: 10px;
+    align-items: center;
+    flex-direction: row;
+}
+
+h1  {
+  padding-right: 5px;
+  text-align: right;
+  border-color: rgb(0, 0, 0);
+  font-size: 35px;
+  background-color: white;
+  color: grey;
+  display: inline-block;
+  }
+
+section p { 
+  display: block;
+  color: white;
+  width: 70%;
+  margin-left: 2px;
+  background-color: white;
+  color: grey;
+  padding-left: 10px;
+  border-left: 2px solid;
+    }
+
+
+#work {
+  display: flex;
+  justify-content: center;
+}
+
+content {
+  display: flex;
+  justify-content:center;
+}
+
+content ul {
+  display: flex;
+    list-style-type: none;
+    width: auto;
+    flex-wrap: wrap; 
+    margin-left: 50px;
+}
+content ul li img{
+  width:300px;
+ height: 200px;
+ object-fit: contain;
+ 
+ 
+}
+
+
+
+
+@media screen and (min-width: 800px) {
+  header {
+    width: 75%;
+  }
+
+  @media screen and (min-width: 500px) {
+    nav,  {
+      width: 75%;
+    }
+    @media screen and (min-width: 500px) {
+      section  {
+        display: flex;
+        
+      }
+
+
+      /*
 button {
   border-radius: 15px; 
   width: 150px;
-  padding: .9%;
+  padding: 10px;
   transition: .8s;
   color: black;
   border-color: white;
-  background-color: #d0d2f9;
+  background-color: #BDD3EF;
   font-weight: bolder;
   box-shadow: 8px 5px; 
   
 }
 button:hover {
-  color: rgb(61, 155, 217);
+  background-color: rgb(208, 214, 241);
   border-color: black;
   cursor:pointer;
   box-shadow: none;
-}
-
-main {
-  display: flex;
-  flex-flow: row wrap;
-  width: auto;
-  }
-  
-.header-2 {
-    width: 100%;
-    height: 100px;
-    background-color: white;
-    border-radius:0px;
-    opacity:100%;
-  
-  }
-.about-me {
-  display: flex;
-  align-items: center;
-  background-color:white;
-  
- 
- 
-  }
-.about-me h1 {
-  display: flex;
-  justify-content: flex-end;
-  width: 10%;
-  padding-top: 4%;
-  padding-bottom: 4%;
-  padding-right:.5%;
-  text-align: right;
-  border-right: 3px solid;
-  border-color: rgb(0, 0, 0);
-  font-size: 35px;
-  background-color: white;
-  color: grey;
-  
-  
-}
-.about-me p {
-color: white;
-display:flex;
-width: 70%;
-background-color: white;
-color: grey;
-padding-left: 10px;
-}
-
-.work {
-  display: flex;
-  align-items: center;
-  background-color:white;
-  color: grey;
- 
- 
-  }
-.work h1 {
-  display: flex;
-  background-color: white;
-  
-  
-  
-}
-.work p {
-  color: grey;
-  width:
-}
-
-span {
-  color: white;
-  background-color: white;
-  width: 100%;
-
-}
-
-
-
-
-
-
-/*
-@media screen and (min-width: 768px) {
-
-       {
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
-
-
-  .card-column:last-child {
-    flex-grow: 1;
-  }
-}
-
-
-@media screen and (min-width: 992px) {
-  header {
-    width: 75%;
-  }
-
-  .card-column {
-    flex: 0 0 33.333%;
-    max-width: 33.333%;
-  }
 }
 */
