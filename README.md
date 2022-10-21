@@ -1,6 +1,6 @@
 # UTSA-Week-1-Challenge #
 # User Story #
-*AS AN employer
+* AS AN employer
 
 * I WANT to view a potential employee's deployed portfolio of work samples
 
