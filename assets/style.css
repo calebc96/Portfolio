@@ -4,22 +4,31 @@
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   background-color: white;
+  text-decoration: none;
+  
 }
 
-section  {
+section, content {
   width: 100%;
 }
-
-
 
 section h1 {
    width: 30%;
    text-align:center;
 }
 
-section p, section content {
+section p {
   width: 70%;
 }
+
+section content {
+  width: 70%;
+}
+
+img {
+  width: 25%;
+}
+
 
 
 header.header-1 {
@@ -30,8 +39,9 @@ header.header-1 {
   padding: 4% 10%;
   color: white;
   border: 5px outset rgb(158, 204, 237);
- 
-
+}
+header a {
+  padding-left:30px;
 }
 .logo {
   width: 120px;
@@ -48,11 +58,11 @@ header.header-1 {
   font-weight: bold;
   font-style: italic;
   font-family: system-ui;
- 
  }
 li {
   display: inline-block; 
 }
+
 li a{
   Transition: .2s ease-in;
   color: rgb(147, 188, 217);
@@ -70,7 +80,6 @@ span {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-grow: -1;
   font-size: 23px;
   padding: 50px;
   color:rgba(27, 27, 20, 0.725);
@@ -82,18 +91,19 @@ span {
   font-size: 80px;
   border:5px outset rgb(158, 204, 237);
   text-align: center;
+  width: auto;
 }
 
 .profile-picture {
-  width: 400px;
+  width: 30%;
   background-color:rgb(255, 253, 253);
   border-radius:0px;
   opacity:80%;
   border:5px outset rgb(158, 204, 237);
-  flex-shrink: 0;
+ 
   
 }
-#about-me {
+#about-me, #work  {
   display: flex;
   height: 500px;
   border: 5px outset rgb(158, 204, 237);
@@ -103,7 +113,7 @@ span {
   justify-content: center;
   justify-content: space-evenly;
   }
-#about-me h1 {
+#about-me h1, #work h1, #contact-me h1{
   font-size: 35px;
   background-color: white;
   color: grey;
@@ -112,6 +122,7 @@ span {
 
 }
 
+
 #about-me p { 
   color: white;
   background-color: white;
@@ -119,45 +130,37 @@ span {
   color: grey;
   text-align: left;
  
-    }
+  }
 
 
-#work {
+article {
+  width: 100%;
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  border: 5px outset rgb(158, 204, 237);
+  padding: 1%;
 }
 
-
-
-#work h1 {
-  font-size: 35px;
-  background-color: white;
-  color: grey;
-  /* margin-left: 20px;
-  margin-right: 10px;
-  padding-right: 5px; */
-}
-content a img{
-  width: 10%;
+footer h1 {
+  color: rgb(162, 162, 211);
+  width: 30%;
+  margin-right: 9%;
 }
 
-#work content {
-  display: flex;
-  flex-wrap: wrap;
+footer p {
+  color: black;
+  text-align: center;
+  
 }
 
-#work content a {
-  text-decoration: none;
-  /* width: 10%; */
-}
-
-footer {
+footer a {
 display: flex;
-justify-content: space-between;
-align-items: center; 
-padding: 4% 10%;
-color: white;
-border: 5px outset rgb(158, 204, 237);
+color: rgb(147, 188, 217); ;
 }
+
+
 
 
 
