@@ -3,184 +3,164 @@
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: white;
+  background-color: black;
   text-decoration: none;
-  
 }
-
-section {
-  width: 100%;
-}
-
-section h1 {
-   width: 30%;
-   text-align:center;
-}
-
-section p {
-  width: 70%;
-}
-
-section {
-  width: 70%;
-}
-
-img {
-  width: 25%;
-}
-
-
 
 header.header-1 {
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  padding-top: 40px;
+  justify-content: space-evenly;
   align-items: center; 
-  padding: 4% 10%;
   color: white;
-  border: 5px outset rgb(158, 204, 237);
 }
-header a {
-  padding-left:30px;
-}
-.logo {
-  width: 120px;
-  border-radius: 50px;
-}
-.logo:hover {
-    Transition:2s;
-    opacity: .5; 
-    cursor: pointer;
-}
+
 #navbar {
   display: flex;
+  justify-content: center;
   font-size: 25px;
   font-weight: bold;
   font-style: italic;
   font-family: system-ui;
  }
+
 li {
   display: inline-block; 
+  text-decoration: none;
+  padding-left: 30px;
+  
 }
 
 li a{
-  Transition: .2s ease-in;
-  color: rgb(147, 188, 217);
+  Transition: .6s ease-in;
+  color:grey;
   text-decoration: none;
-}
-#navbar li a:hover{
-  color: grey;
-  cursor:pointer;
-}
-span {
-  font-size:xx-large;
+  background-color: black;
+  font-size: 18px;
 }
 
-.intro {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 23px;
-  padding: 50px;
-  color:rgba(27, 27, 20, 0.725);
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  border: 5px outset rgb(158, 204, 237);
-}
-.hello {
-  color:rgb(158, 204, 237);
-  font-size: 80px;
-  border:5px outset rgb(158, 204, 237);
-  text-align: center;
-  width: auto;
+li a:hover{
+  color: white;
+  cursor:pointer;
+  
 }
 
 .profile-picture {
-  width: 30%;
-  background-color:rgb(255, 253, 253);
+  width:30%;
+  max-height: 400px;
+  object-fit: cover;
+  justify-self: center;
   border-radius:0px;
   opacity:80%;
-  border:5px outset rgb(158, 204, 237);
  
-  
 }
-#about-me, #work  {
+
+#about-me {
   width: 100%;
   display: flex;
   height: 500px;
-  border: 5px outset rgb(158, 204, 237);
   flex-direction: row;
   align-items: center;
   align-content: center;
   justify-content: center;
-  justify-content: space-evenly;
   }
 
-#about-me p { 
-    color: white;
-    background-color: white;
-    /* width: 1000px; */
-    color: grey;
-    text-align: left;
-   
-    }
-#about-me h1, #work h1, #contact-me h1{
+#about-me h1 {
   font-size: 35px;
-  background-color: white;
-  color: grey;
-  /* margin-right: 10px;
-  padding-right: 5px; */
+  color: white;
+  padding: 40px;
+  margin-right:10px;
+  }
+#about-me p {
+  color:white;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+h2 {
+  font-size: 35px;
+  color: white;
+  border: none;
+  text-align: center;
+}
+
+#image-1 a img {
+display: flex;
+height: 300px;
+width: 40%;
+border-radius: 60px;
+object-fit:cover;
+object-position:-10px;
+border: 4px solid grey;
+text-align: center;
 
 }
 
 
-/* Need to fix the images */
-section li {
-width: 300px;
-border: 5px outset rgb(158, 204, 237);
+#work img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 40px;
+  border: 4px solid grey;
+  margin: 6px;
+ 
 }
 
-
-section #work {
-  width: 100%;
-}
-
-
-article {
+#work {
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+img {
+  width:50%;
+  border-radius: 40px;
+  border: 4px solid grey;
+}
+
+#contact-me {
+  display: flex;
+  width: 100%;
   align-items: center;
   color: white;
-  border: 5px outset rgb(158, 204, 237);
   padding: 1%;
-}
-
-footer h1 {
-  color: rgb(162, 162, 211);
-  width: 30%;
-  
-}
-
-footer p {
-  color: black;
-  text-align: center;
-  
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 25px;
+  margin-top: 100px;
 }
 
 footer a {
-display: flex;
-color: rgb(147, 188, 217); ;
+width:0;
+height:0; 
 }
 
+footer h1 {
+color: white;
+font-size: 35px;
+padding:0px;
+}
 
+footer a {
+color:grey;
+padding: 0;
+font-size: 18px;
+font-weight: bold;
+font-style: italic;
+font-family: system-ui;
+}
 
+#Worksection > a {
+  display: block ;
+  text-align: center ;
+}
 
-
-
-
-
-
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 800px) 
   header {
     width: 75%;
   }
@@ -189,12 +169,11 @@ color: rgb(147, 188, 217); ;
     nav,  {
       width: 75%;
     }
-    @media screen and (min-width: 500px) {
-      section  {
-        display: flex;
-        
+   @media screen and (min-width: 800px) {
+      #work  {
+      
       }
-
+    }
 
       /*
 button {
