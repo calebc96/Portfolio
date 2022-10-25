@@ -43,3 +43,7 @@ the following image shows the web application's appearnce and funtionality:
 # Live Application URL #
 
 https://calebcarnett.github.io/Portfolio/
+
+# Screenshot #
+
+![image](https://user-images.githubusercontent.com/111102789/197674783-bfc310cb-821b-4fde-b8c8-2fbd12f26433.png)
