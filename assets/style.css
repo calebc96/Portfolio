@@ -48,19 +48,20 @@ li a:hover{
 #about-me {
   width: 60%;
   display: flex;
-  height: 500px;
+  height: auto;
   flex-direction: row;
   margin: auto;
   align-items: center;
+  justify-content: center;
   padding-top: 100px;
   }
 
 .profile-picture {
-  width:50%;
+  width:400px;
   max-height: 400px;
-  object-fit: cover;
+  object-fit: contain;
   justify-self: center;
-  border-radius: 50%;
+  border-radius: 50px;
   border: none;
  
 }
@@ -68,13 +69,14 @@ li a:hover{
 #about-me p {
   padding-left: 30px;
   padding-right: 30px;
-  width: 50%;
+  width: 400px;
 }
 
 h2 {
   font-size: 35px;
   border: none;
   text-align: center;
+  padding:30px;
 }
 
 #image-1 a img {
@@ -149,15 +151,15 @@ font-family: system-ui;
   text-align: center ;
 }
 
-@media screen and (min-width: 1000px) {
+/* @media screen and (min-width: 1000px) {
   header {
     flex-wrap: wrap;
   }
-}
+} */
 
-  @media screen and (min-width: 500px) {
-    nav,  {
-      width: 75%;
+  @media screen and (max-width: 800px) {
+    #about-me {
+      flex-wrap: wrap;
     }
   }
 
