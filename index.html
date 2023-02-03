@@ -37,6 +37,7 @@
       integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-light bg-light">
@@ -78,10 +79,15 @@
           alt="Card image cap"
         />
     </section>
-    <h1>About Me</h1>
-        <p>I am a web developer, lifelong learner and adventurer with a background in Project Mangement and Customer Care. I enjoy development because of the satisfaction of overcoming challenges. I am motivated by the opportunity that software provides and the positive impact it can make on the world.
-        </p>
-        
+    <section id="aboutmesection">
+        <div class="col-6 bg-light p-3 border rounded">
+          <h1>About Me</h1>
+        </div>
+        <div class="col-sm-6 bg-light p-3 border rounded">
+          <p>I am a web developer, lifelong learner and adventurer with a background in Project Mangement and Customer Care. I enjoy development because of the satisfaction of overcoming challenges. I am motivated by the opportunity that software provides and the positive impact it can make on the world.
+          </p>
+        </div>
+      </section>
     <h2>Projects</h2>
     <section id="projects" class="card-columns">
       <div class="card" style="width: 18rem">
@@ -134,48 +140,11 @@
           >
         </div>
       </div>
-      <div class="card" style="width: 18rem">
-        <img
-          class="card-img-top"
-          src="./assets/images/Pawfriends screenshot2.png"
-          alt="Card image cap"
-        />
-        <div class="card-body">
-          <h5 class="card-title">Pawfriends</h5>
-          <p class="card-text">
-            This was created with Sequelize and Express to make a pet adoption
-            site
-          </p>
-          <a target="_blank" href="https://pawfriends.herokuapp.com/" class="btn btn-primary"
-            >Live</a
-          >
-        </div>
-      </div>
     </section>
   </body>
   <footer class="footer" id="contact">
-    <p class="lead">
-      <a
-        class="btn btn-primary btn-lg"
-        href="https://github.com/calebcarnett"
-        target="_blank"
-        role="button"
-        >Linkedin</a
-      >
-      <a
-        class="btn btn-primary btn-lg"
-        href="https://github.com/calebcarnett"
-        target="_blank"
-        role="button"
-        >Email</a
-      >
-      <a
-        class="btn btn-primary btn-lg"
-        href="https://github.com/calebcarnett"
-        target="_blank"
-        role="button"
-        >Email</a
-      >
-    </p>
+    <ion-icon name="logo-linkedin"></ion-icon>
+
+  
   </footer>
 </html>
