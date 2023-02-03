@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Caleb Carnett</title>
-
+    <link href="./assets/style/style.css" rel="stylesheet" />
     <!--BootStrap-->
     <link
       rel="stylesheet"
@@ -39,7 +39,7 @@
     ></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
       <a class="navbar-brand">Caleb Carnett</a>
       <button
         class="navbar-toggler"
@@ -55,31 +55,127 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
+    <section class="about">
+      <div id="about" class="info">
+        <h1>Hi! I'm Caleb.</h1>
+        <h2>I'm a Software Developer.</h2>
+      </div>
+      <div  style="width: 18rem">
+        <img class="profilephoto"
+          class="card-img-top"
+          src="./assets/images/headshot.png"
+          alt="Card image cap"
+        />
+    </section>
+    <h1>About Me</h1>
+        <p>I am a web developer, lifelong learner and adventurer with a background in Project Mangement and Customer Care. I enjoy development because of the satisfaction of overcoming challenges. I am motivated by the opportunity that software provides and the positive impact it can make on the world.
+        </p>
+        
+    <h2>Projects</h2>
+    <section id="projects" class="card-columns">
+      <div class="card" style="width: 18rem">
+        <img
+          class="card-img-top"
+          src="./assets/images/Pawfriends screenshot2.png"
+          alt="Card image cap"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Pawfriends</h5>
+          <p class="card-text">
+            This was created with Sequelize and Express to make a pet adoption
+            site
+          </p>
+          <a href="https://pawfriends.herokuapp.com/" class="btn btn-primary"
+            >Live</a
+          >
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          class="card-img-top"
+          src="./assets/images/Movie-Application.png"
+          alt="Card image cap"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Movie Night</h5>
+          <p class="card-text">
+           Created using Youtube and OMDB RESTful API's with Javascript. 
+          </p>
+          <a target="_blank" href="https://calebcarnett.github.io/Movie-Search-Application" class="btn btn-primary"
+            >Live</a
+          >
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          class="card-img-top"
+          src="./assets/images/Employeetracker.png"
+          alt="Card image cap"
+        />
+        <div class="card-body">
+          <h5 class="card-title">SQL Employee Tracker</h5>
+          <p class="card-text">
+            This was created with Sequelize and Express to make a pet adoption
+            site
+          </p>
+          <a target="_blank" href="https://github.com/calebcarnett/TrackMyEmployees.git" class="btn btn-primary"
+            >Code Source</a
+          >
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          class="card-img-top"
+          src="./assets/images/Pawfriends screenshot2.png"
+          alt="Card image cap"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Pawfriends</h5>
+          <p class="card-text">
+            This was created with Sequelize and Express to make a pet adoption
+            site
+          </p>
+          <a target="_blank" href="https://pawfriends.herokuapp.com/" class="btn btn-primary"
+            >Live</a
+          >
+        </div>
+      </div>
+    </section>
   </body>
-
-  <footer id="contact-me">
-    <h1>Contact</h1>
-    <ul>
-      <li>
-        <a href="https://www.linkedin.com/in/calebcarnett">Linkedin</a>
-      </li>
-      <li>
-        <a href="mailto:Carnett.caleb@gmail.com">Email Me</a>
-      </li>
-      <li>
-        <a href="https://github.com/calebcarnett">Github</a>
-      </li>
-    </ul>
+  <footer class="footer" id="contact">
+    <p class="lead">
+      <a
+        class="btn btn-primary btn-lg"
+        href="https://github.com/calebcarnett"
+        target="_blank"
+        role="button"
+        >Linkedin</a
+      >
+      <a
+        class="btn btn-primary btn-lg"
+        href="https://github.com/calebcarnett"
+        target="_blank"
+        role="button"
+        >Email</a
+      >
+      <a
+        class="btn btn-primary btn-lg"
+        href="https://github.com/calebcarnett"
+        target="_blank"
+        role="button"
+        >Email</a
+      >
+    </p>
   </footer>
 </html>
