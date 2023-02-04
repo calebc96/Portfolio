@@ -14,8 +14,10 @@
 }
 
 .profilephoto {
-    border-radius: 100%;
-    padding-top: 55px;
+    border-radius: 100px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
 }
 
 .info {
@@ -35,7 +37,7 @@ h2, h1, p {
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+    
 }
 
 .card img {
@@ -48,42 +50,29 @@ h2, h1, p {
     height: 90px;
 }
 
+.card-body {
+    text-align: center;
+}
+
+         
 .project-buttons {
-text-decoration: none;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 15px;
-background: linear-gradient(180.3deg, rgb(221, 221, 221) 5.5%, rgb(110, 136, 161) 90.2%);
-color: black;
-padding: 5px;
-padding-left:15px ;
-padding-right:15px;
-border-radius: 25px;
-}
+    background-image: linear-gradient(to right, #757F9A 0%, #D7DDE8  65%, #757F9A  100%);
+    margin: auto;
+    width: 150px;
+    padding: 5px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 20px;
+    display: block;
+  }
 
-.project-buttons{
+  .project-buttons:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    background: linear-gradient(180.3deg, rgb(221, 221, 221) 5.5%, rgb(110, 136, 161) 90.2%);
-    color: black;
-    padding: 5px;
-    padding-left:15px ;
-    padding-right:15px;
-    border-radius: 25px;
-    }
-
-    .project-buttons:hover{
-        text-decoration: none;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 15px;
-        background: linear-gradient(180.3deg, rgb(221, 221, 221) 5.5%, rgb(110, 136, 161) 90.2%);
-        color: black;
-        padding: 5px;
-        padding-left:15px ;
-        padding-right:15px;
-        border-radius: 25px;
-        }
-    
-.nav-item {
-    font-size: 23px;
-}
+  }
+ 
