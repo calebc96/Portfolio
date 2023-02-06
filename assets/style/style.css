@@ -26,6 +26,7 @@
 
 h2, h1, p {
     text-align: center;
+    
 }
 
 
@@ -33,6 +34,7 @@ h2, h1, p {
     display: flex;
     align-items: center;
     flex-direction: column;
+    font-size: 20px;
 }
 
 .card {
@@ -56,7 +58,7 @@ h2, h1, p {
 
          
 .project-buttons {
-    background-image: linear-gradient(to right, #757F9A 0%, #D7DDE8  65%, #757F9A  100%);
+    background-image: linear-gradient(to right, #567182 0%, #93a0b8  65%, #5592aa  100%);
     margin: auto;
     width: 150px;
     padding: 5px 15px;
@@ -66,7 +68,7 @@ h2, h1, p {
     background-size: 200% auto;
     color: white;            
     box-shadow: 0 0 20px #eee;
-    border-radius: 20px;
+    border-radius: 10px;
     display: block;
   }
 
@@ -76,3 +78,8 @@ h2, h1, p {
     text-decoration: none;
   }
  
+#navbarNav {
+    justify-content: right;
+    font-size: 25px;
+}
+
