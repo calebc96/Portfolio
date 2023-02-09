@@ -9,15 +9,16 @@
     text-align: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding-top: 150px;
+    padding-top: 80px;
     padding-bottom: 70px;
 }
 
 .profilephoto {
-    border-radius: 100px;
+    border-radius: 120px;
     width: 250px;
     height: 250px;
     object-fit: cover;
+    box-shadow: 0 0 10px #0b0909;
 }
 
 .info {
@@ -58,7 +59,7 @@ h2, h1, p {
 
          
 .project-buttons {
-    background-image: linear-gradient(to right, #567182 0%, #93a0b8  65%, #5592aa  100%);
+    background-image: linear-gradient(to right, #c15d5b 0%, #c8afae  65%, #ce564f  100%);
     margin: auto;
     width: 130px;
     padding: 5px 10px;
@@ -67,8 +68,8 @@ h2, h1, p {
     transition: 0.5s;
     background-size: 200% auto;
     color: white;            
-    box-shadow: 0 0 20px #eee;
-    border-radius: 10px;
+    box-shadow: 0 0 5px #0b0909;
+    border-radius: 30px;
     display: block;
   }
 
@@ -109,10 +110,12 @@ footer {
     transition: 0.5s;
     background-size: 200% auto;
     color: white;            
-    box-shadow: 0 0 20px #eee;
+    box-shadow: 0 0 10px #070707;
     border-radius: 25px;
     display: block;
     border: none;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .hire-me:hover {
