@@ -81,7 +81,6 @@ h2, h1, p {
   }
  
 #navbarNav {
-    justify-content: right;
     font-size: 18px;
 }
 
@@ -124,5 +123,8 @@ footer {
     text-decoration: none;
     border: none;
   }
- 
 
+  .header {
+    display: flex;
+    justify-content: flex-end;
+  }
