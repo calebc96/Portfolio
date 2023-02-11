@@ -60,7 +60,6 @@ h2, h1, p {
 
          
 .project-buttons {
-    background-image: linear-gradient(to right, #c15d5b 0%, #c8afae  65%, #ce564f  100%);
     margin: auto;
     width: 130px;
     padding: 5px 10px;
@@ -68,7 +67,7 @@ h2, h1, p {
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
-    color: white;            
+    color: black;           
     box-shadow: 0 0 5px #0b0909;
     border-radius: 30px;
     display: block;
@@ -76,8 +75,9 @@ h2, h1, p {
 
   .project-buttons:hover {
     background-position: right center; /* change the direction of the change here */
-    color: #fff;
+    color: black;
     text-decoration: none;
+    box-shadow: 0 0 8px #0b0909;
   }
  
 #navbarNav {
@@ -102,15 +102,15 @@ footer {
 }
 
 .hire-me {
-    background-image: linear-gradient(to right, #c15d5b 0%, #c8afae  65%, #ce564f  100%);
+    background-color: white;
     margin: auto;
     padding: 5px 15px;
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
-    color: white;            
-    box-shadow: 0 0 10px #070707;
+    color: black;         
+    box-shadow: 0 0 5px #070707;
     border-radius: 25px;
     display: block;
     border: none;
@@ -122,6 +122,7 @@ footer {
     background-position: right center; /* change the direction of the change here */
     text-decoration: none;
     border: none;
+    box-shadow: 0 0 8px #070707;
   }
 
   .header {
