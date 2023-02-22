@@ -136,11 +136,15 @@ footer {
 
   @media (min-width: 1000px) {
   .card-columns {
-  width: 60%;
+  width: 70%;
  margin: auto;
 
   }
-
+  .skillsGrid {
+   margin: auto;
+   width: 70%;
+  
+    }
 
   }
 
@@ -154,3 +158,5 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
   }
+
+ 
