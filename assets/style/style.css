@@ -55,11 +55,14 @@ h2, h1, p {
 
 .card-body {
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
          
 .project-buttons {
-    margin: auto;
     width: 130px;
     padding: 5px 5px;
     text-align: center;
@@ -69,7 +72,8 @@ h2, h1, p {
     color: black;           
     box-shadow: 0 0 5px #0b0909;
     border-radius: 30px;
-    display: block;
+    display: flex;
+    justify-content: center;
     margin: 5px;
   }
 
@@ -130,11 +134,23 @@ footer {
     justify-content: flex-end;
   }
 
-  @media (max-width: 1000px) {
+  @media (min-width: 1000px) {
   .card-columns {
-    width: 60%;
+  width: 60%;
+ margin: auto;
 
   }
 
 
+  }
+
+  .skillsGrid img {
+  width: 70px;
+  margin: 20px;
+  }
+
+  .skillsGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
